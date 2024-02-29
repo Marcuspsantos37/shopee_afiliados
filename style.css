@@ -221,7 +221,7 @@ footer #contato ul img{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 730px) {
     body{
         width: 100%;
     }
@@ -233,13 +233,6 @@ footer #contato ul img{
         border: none;
     }
 
-    header #menu_mobile{
-       
-        width: 1.5rem;
-        padding-top: ;
-        
-        
-    }
 
     #logomarca{
         display: flex;
@@ -250,24 +243,37 @@ footer #contato ul img{
         padding-left: 20%;
         
     }
-    
-    
-   
-    header #logo{
+    header #logo{ 
         justify-content: center;
         padding-left: 1rem; 
-   }
+    }
     header li {
         display: none;
-   }
-   #nav_mobile {
-        display: block;
+    }
+
+    #nav_mobile{
+    }
+
+    .nav_mobile ul {
+        display: flex;
+        flex-direction: column;
         text-align: center;
         list-style: none;
-   }
-   .nav_mobile_itens{
-    
-   }
+        padding-bottom: 1rem;
+    }
+    .nav_mobile_itens{
+        display: flex;
+        padding-top: 1.2rem;
+    }
+
+    header #menu_mobile{
+        display: flex;
+        width: 1.5rem;
+        height: 3rem;
+        padding-left: 4%;
+        cursor: pointer;
+    }
+ 
 
     #descobertas{
         font-size: 11pt;
@@ -317,4 +323,5 @@ footer #contato ul img{
     footer{
         width: 100%;
     }
+
 } 
