@@ -121,7 +121,9 @@ header{
 #logomarca{
     display: flex;
     width: 9rem;
-    height: 3rem; 
+    height: 6rem;
+    border: 1rem;
+    padding: 0%; 
 }
 
 .imagens{
@@ -231,18 +233,25 @@ footer #contato ul img{
         border: none;
     }
 
+    header #menu_mobile{
+       
+        width: 1.5rem;
+        padding-top: ;
+        
+        
+    }
+
     #logomarca{
-        display: flex;
-        width: 9rem;
-        height: 2.8rem;
-        margin: 0; 
+        
+        width: 7rem;
+        height: 5rem;
+        border: 1rem;
+        padding: 0%; 
+        padding-left: 20%;
+        
     }
     
-    header #menu_mobile{
-        display: flex;
-        width: 2.5rem;
-        margin-left: -1rem;   
-    }
+    
    
     header #logo{
         justify-content: center;
