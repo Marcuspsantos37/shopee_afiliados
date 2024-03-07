@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function startCarousel() {
       intervalId = setInterval(() => {
         showSlides(1); // Avança para o próximo slide a cada intervalo
-      }, 3000); // Intervalo de 3 segundos (3000 milissegundos)
+      }, 5000); // Intervalo de 3 segundos (3000 milissegundos)
     }
   
     // Event listeners para os botões
