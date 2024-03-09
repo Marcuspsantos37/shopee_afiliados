@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    list-style: none;
 }
 
 body{
@@ -20,8 +21,31 @@ header{
     
 }
 
+#botao_menu{
+    background:linear-gradient(#FE6332,#ff6633dd);
+    border: none;
+}
+
+
+#dropdown button {
+    display: none;
+}
+
+#dropdown img {
+    display: none;
+}
+
+
+
 #nav_mobile{
     display: none;
+    padding-block: 16px;
+   
+}
+
+.label-menu,
+.checkbox {
+    display:none;
 }
 
 #menu{
@@ -134,11 +158,11 @@ header{
     margin-top: 2%;
     margin-bottom: 1%;
     margin-right: 5%;
-    margin-left: 10%;
+    margin-left: -5%;
     padding: 1%;
     text-align: center;  
     border-radius: 1rem; 
-    width: 72%;
+    width: 100%;
 }
 
 .produto > img{
@@ -228,11 +252,13 @@ footer #contato ul img{
 }
 
 @media screen and (max-width: 730px) {
+    
     body{
         width: 100%;
     }
+    
     header {
-        display: flex;
+        display: none;
         width: 100%;
         margin: none;
         padding: none;
@@ -241,7 +267,7 @@ footer #contato ul img{
 
 
     #logomarca{
-        display: flex;
+        display: none;
         width: 7rem;
         height: 5rem;
         border: 1rem;
@@ -253,11 +279,44 @@ footer #contato ul img{
         justify-content: center;
         padding-left: 1rem; 
     }
+
+    .container{
+
+
+    }
+    
+    #dropdown{
+        background-color: #FE6332;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-right: -20%;
+                
+    }
+
+    #dropdown img{
+        display: flex;
+        width: 30%;
+        margin-left: 1rem;
+        padding: 1%;
+    }
+
+
+    #dropdown > button {
+        display: flex;
+        margin-left: 15rem;
+        margin-top: -2.6rem;
+        background-color: black;
+        border-color: black;
+    }
+
+
     header li {
-        display: none;
+        display: flex;
     }
 
     #nav_mobile{
+        display: flex;
+        
     }
 
     .nav_mobile ul {
@@ -268,7 +327,7 @@ footer #contato ul img{
         padding-bottom: 1rem;
     }
     .nav_mobile_itens{
-        display: flex;
+        display: none;
         padding-top: 1.2rem;
     }
 
@@ -276,33 +335,39 @@ footer #contato ul img{
         display: flex;
         width: 1.5rem;
         height: 3rem;
+        margin-left: 4rem;
         padding-left: 4%;
         cursor: pointer;
     }
- 
 
     #descobertas{
         font-size: 11pt;
         font-family: Arial, Helvetica, sans-serif;
     }
 
-   main{
+
+    main{
         display: inline;
         padding: none;
-   }
+    }
 
-   .carrossel{
+    .carrossel{
         width: 90%;
-   }
+    }
 
     .produtos{
         display: inline;
+        padding-right: 5rem;
+        align-items: center;   
+        
     }
 
+  
     .produto{
-        width: 14rem;
+        width: 20rem;
         border: none;
-        margin: 3rem;
+        margin-left: -0.1rem;
+        margin-bottom: 3rem;
     }
 
     iframe{
@@ -327,8 +392,14 @@ footer #contato ul img{
         padding-bottom: 8px;
         font-size: 14pt;
     }
+
+
+
     footer{
+        display: flex;
         width: 100%;
+        
+        
     }
 
 } 
