@@ -255,6 +255,7 @@ footer #contato ul img{
     
     body{
         width: 100%;
+        align-items: center;
     }
     
     header {
@@ -296,6 +297,7 @@ footer #contato ul img{
     #dropdown img{
         display: flex;
         width: 30%;
+        height: 5.5rem;
         margin-left: 1rem;
         padding: 1%;
     }
@@ -303,7 +305,7 @@ footer #contato ul img{
 
     #dropdown > button {
         display: flex;
-        margin-left: 15rem;
+        margin-left: 19rem;
         margin-top: -2.6rem;
         background-color: black;
         border-color: black;
