@@ -167,7 +167,7 @@ header{
 
 .produto > img{
     height: 60%;
-    width: 70%;
+    width: 100%;
     margin-bottom: 4%;
 }
 
@@ -176,7 +176,7 @@ header{
     align-items: initial;
     background-color: #fff;
     padding: 1rem;
-    margin-left: 7rem;
+    margin-left: 1rem;
     
 }
 
@@ -197,7 +197,7 @@ header{
 .info_produtos{
     position: relative; 
     padding-bottom: 8px;
-    font-size: 12pt;
+    font-size: 11pt;
 }
 
 button:hover{
@@ -214,10 +214,12 @@ button:hover{
     padding: 0.3rem;
     font:bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 12pt;
+    font-size: 10pt;
     box-shadow: 1rem;
     border: none;
     cursor: pointer;
+    margin-bottom: 15%;
+ 
 }
 
 footer{
@@ -345,6 +347,7 @@ footer #contato ul img{
     #descobertas{
         font-size: 11pt;
         font-family: Arial, Helvetica, sans-serif;
+
     }
 
 
@@ -360,7 +363,7 @@ footer #contato ul img{
     .produtos{
         display: inline;
         padding-right: 5rem;
-        align-items: center;   
+        align-items: center;
         
     }
 
