@@ -284,7 +284,7 @@ footer #contato ul img{
     }
 
     .container{
-
+      
 
     }
     
@@ -357,22 +357,25 @@ footer #contato ul img{
     }
 
     .carrossel{
-        width: 90%;
-    }
-
-    .produtos{
-        display: inline;
-        padding-right: 5rem;
-        align-items: center;
+        width: 108%;
         
     }
 
-  
+    .produtos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:45px;
+        margin-left: -15%;
+        
+
     .produto{
-        width: 20rem;
+        display: block;
+        width: 120%;
         border: none;
-        margin-left: -0.1rem;
+        margin-right: 11%;
         margin-bottom: 3rem;
+        
+        
     }
 
     iframe{
@@ -389,13 +392,34 @@ footer #contato ul img{
     .nome_produto{ 
         font-size: 0.6rem;
         padding: 0.2rem;
-        font-size: 10pt;
+        font-size: 8pt;
         align-items: center;
     }
 
     .info_produtos{
-        padding-bottom: 8px;
-        font-size: 14pt;
+        padding-bottom: 0px;
+        font-size: 10pt;
+    }
+
+    .ver-oferta{
+        justify-content: center;
+        width: 6rem;
+        background-color:crimson;
+        color: #fff;
+        padding: 0.3rem;
+        font:bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 9pt;
+        box-shadow: 1rem;
+        border: none;
+        cursor: pointer;
+        
+        margin-bottom: 50%;
+     
+    }
+
+    eletronicos{
+        width: 100%;
     }
 
 
@@ -407,4 +431,4 @@ footer #contato ul img{
         
     }
 
-} 
+}
